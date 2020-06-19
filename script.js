@@ -48,7 +48,7 @@ $(document).ready(function(){
 $("html, body").animate({ scrollTop: 0 }, "slow");
 
 function discordTag() {
-    navigator.clipboard.writeText("sysΛ 🍯#3162").then(function() {
+    navigator.clipboard.writeText("sysLambda | Λ#3162").then(function() {
         Swal.fire({
             title: "Succès",
             text: "Tag copié !",
@@ -59,7 +59,7 @@ function discordTag() {
     }, function() {
         Swal.fire({
             title: "Oups...",
-            html: "Votre navigateur n'est pas pris en charge pour la copie du tag Discord. Mais j'ai une solution !<br /><input value=\"sysΛ 🍯#3162\" onClick=\"this.setSelectionRange(0, this.value.length)\" readonly />",
+            html: "Votre navigateur n'est pas pris en charge pour la copie du tag Discord. Mais j'ai une solution !<br /><input value=\"sysLambda | Λ#3162\" onClick=\"this.setSelectionRange(0, this.value.length)\" readonly />",
             icon: "error"
         });
     });
