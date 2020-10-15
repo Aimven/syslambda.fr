@@ -48,7 +48,7 @@ $(document).ready(function(){
 $("html, body").animate({ scrollTop: 0 }, "slow");
 
 function discordTag() {
-    navigator.clipboard.writeText("sysLambda | Λ#3162").then(function() {
+    navigator.clipboard.writeText("sysLambda | Λ#0420").then(function() {
         Swal.fire({
             title: "Succès",
             text: "Tag copié !",
